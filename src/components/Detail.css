@@ -1,0 +1,31 @@
+.start {
+    opacity:0;
+}
+.end {
+    opacity:1;
+    transition: opacity 0.5s;
+}
+
+.product-list li {
+    list-style: none;
+}
+
+.product-list li a {
+    text-decoration: none;
+}
+
+.recent-items {
+    margin-top:50px;
+}
+.recent-item {
+    overflow: auto;
+}
+.recent-item li {
+    float:left;
+    width:calc(100%/3);
+    list-style: none;
+    text-align:center;
+}
+.recent-item li img {
+    width:100%;
+}
